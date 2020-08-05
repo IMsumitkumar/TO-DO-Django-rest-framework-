@@ -27,7 +27,7 @@ SECRET_KEY = '001v862uhj9lh1%%of0r_w8899gzbguk+kesr&1vmca*$02+hk'
 DEBUG = False
 
 ALLOWED_HOSTS = ['todo-sumit.herokuapp.com', '127.0.0.1']
-
+# ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'todo_app',
     'rest_framework',
-    'frontend',
+    'frontend.apps.FrontendConfig',
 ]
 
 MIDDLEWARE = [
